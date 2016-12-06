@@ -1,0 +1,19 @@
+{
+  "name": "email-service",
+  "version": "0.0.0",
+  "description": "Service",
+  "author": "nemo <nima@halfmoon.ws>",
+  "main": "f/subscribe/index.js",
+  "dependencies": {
+    "lodash": "^4.17.2",
+    "mailchimp-api-v3": "^1.6.0",
+    "mandrill-api": "^1.0.45"
+  },
+  "private": true,
+  "stdlib": {
+    "name": "nemo/email-service",
+    "defaultFunction": "subscribe",
+    "timeout": 10000,
+    "publish": false
+  }
+}
