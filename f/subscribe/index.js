@@ -23,7 +23,8 @@ module.exports = (params, callback) => {
         email_address: params.kwargs.email_address,
         status: params.kwargs.status || 'subscribed',
         merge_fields: _.assign({
-            FNAME: params.kwargs.first_name
+            FNAME: params.kwargs.first_name,
+            LNAME: params.kwargs.last_name
         }, params.kwargs.merge_fields)
     }, params.kwargs);
 

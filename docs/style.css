@@ -1,0 +1,108 @@
+html, body {
+    color: #484848;
+    margin: 0;
+    padding: 0;
+
+    font-family: 'Open Sans', sans-serif;
+}
+
+header {
+    width: 100%;
+    background-color: #009BE3;
+    padding: 20px;
+
+    border-bottom: 1px solid #aeaeae;
+    text-align: center;
+
+    color: white;
+}
+
+header h1 {
+    font-size: 70px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+header .lead {
+    font-size: 21px;
+    line-height: 1.4;
+    font-weight: 300;
+    margin-bottom: 20px;
+}
+
+header a { color: white; }
+
+footer {
+    margin-top: 80px;
+    text-align: center;
+    color: #777;
+}
+
+.red { color: red; }
+
+a {
+    color: #009BE3;
+}
+
+.container {
+    width: 500px;
+    margin: 80px auto 0;
+}
+
+#message {
+    display: none;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 3px;
+}
+
+#message.success {
+    display: block;
+    background-color: lightgreen;
+    color: white;
+}
+
+#message.error {
+    display: block;
+    background-color: red;
+    color: white;
+}
+
+.form {
+    margin: 0 auto;
+}
+
+.form-group {
+    display: block;
+    padding-bottom: 5px;
+}
+
+.form-group label {
+    display: block;
+}
+
+.form-group input {
+    display: block;
+    width: 100%;
+    padding: 8px 4px;
+
+    border-radius: 3px;
+
+    border: 1px solid #aeaeae;
+}
+
+.form button {
+    background-color: #009BE3;
+    color: white;
+    border-radius: 3px;
+    padding: 8px 10px;
+
+    border: 1px solid #009BE3;
+}
+
+.form button:hover {
+    cursor: pointer;
+    background-color: white;
+    color: #009BE3;
+    border: 1px inset #009BE3;
+}
