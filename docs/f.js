@@ -110,3 +110,5 @@ var f = (function() {
   return f;
 
 })();
+
+window.f = f;
