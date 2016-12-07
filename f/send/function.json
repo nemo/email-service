@@ -1,13 +1,12 @@
 {
   "name": "send",
   "description": "Function",
-  "args": [
-    "First argument",
-    "Second argument"
-  ],
+  "args": [],
   "kwargs": {
-    "alpha": "Keyword argument alpha",
-    "beta": "Keyword argument beta"
+    "email_address": "Email Address to subscribe to list",
+    "first_name": "First name of user",
+    "last_name": "Last name of user",
+    "merge_fields": "Merge fields for Mailchimp",
   },
   "http": {
     "headers": {}
