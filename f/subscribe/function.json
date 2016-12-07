@@ -1,10 +1,7 @@
 {
   "name": "subscribe",
   "description": "Function",
-  "args": [
-    "First argument",
-    "Second argument"
-  ],
+  "args": [],
   "kwargs": {
     "email_address": "Email Address to subscribe to list",
     "first_name": "First name of user",

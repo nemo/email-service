@@ -20,6 +20,7 @@
         </header>
 
         <div class="container">
+            <h2>Subscribe Users to Mailchimp Lists</h2>
             <p>
                 Using a simple script and <a href="https://stdlib.com">stdlib</a>, you can create very simple landing pages that collect email addresses.
             </p>
@@ -74,6 +75,35 @@ $("#form").on('submit', onSubmit);
             <p>
                 You can use it to subscribe folks to a mailing list very easiily and just host a static site on github (or even on stdlib itself).
             </p>
+
+            <h2>Send Emails</h2>
+            <p>
+                You can also use the service (that's a <a href="https://mandrillapp.com">Mandrill</a> wrapper) to send emails to your users. It's a useful abstraction in case you want to switch providers down the road. Here's an example:
+            </p>
+
+            <pre>
+                <code class="js javascript">
+var f = require('f');
+
+f("nemo/email-service")({
+    message: {
+        to: [{
+            email: "nima@halfmoon.ws",
+            name: "Nima Gardideh",
+            type: "to"
+        }],
+        headers: {
+            "Reply-To": "nima@discoverforward.com"
+        },
+        subject: "This is a test email!",
+        from_email: "nima@discoverforward.com",
+        from_name: "Nima",
+        html: "<p>This is an email sent from a stdlib email service.</p>",
+        text: "This is an email sent from a stdlib email-service."
+    }
+}, console.log);
+                </code>
+            </pre>
             <footer>
                 Built with <span class="red">&hearts;</span> in San Francisco by <a href="https://twitter.com/ngardideh">@ngardideh</a>.
             </footer>

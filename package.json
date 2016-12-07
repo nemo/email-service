@@ -1,7 +1,7 @@
 {
   "name": "email-service",
-  "version": "0.1.1",
-  "description": "Service",
+  "version": "0.1.4",
+  "description": "Email Subscription and Sending Service (Mailchimp + Mandrill)",
   "author": "nemo <nima@halfmoon.ws>",
   "main": "f/subscribe/index.js",
   "dependencies": {

@@ -2,7 +2,13 @@
   "name": "send",
   "description": "Function",
   "args": [],
-  "kwargs": {},
+  "kwargs": {
+      "message": "message content object (required)",
+      "template_content": "template content object (optional)",
+      "template_name": "template name (optional)",
+      "ip_pool": "ip pool to use (optional, default: Main Pool)",
+      "send_at": "when the message should be send (optioanl)"
+  },
   "http": {
     "headers": {}
   }
