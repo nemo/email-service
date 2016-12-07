@@ -3,7 +3,7 @@
 
 This is an email service built on top of [Mailchimp/Mandrill](https://mailchimp.com) to enable serverless landing pages.
 
-You can see an example [here](https://nemo.github.io/email-service).
+You can see an example [here](https://nemo.github.io/email-service/).
 
 It's built on top of [stdlib](https://stdlib.com) – a microservice provider.
 
