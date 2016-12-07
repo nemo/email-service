@@ -1,5 +1,5 @@
 # Abstracted Email-service
-[![stdlib.com service](https://img.shields.io/badge/stdlib-0.1.4-green.svg?raw=true "stdlib.com service")](https://stdlib.com/services/nemo/email-service)
+[![stdlib.com service](https://img.shields.io/badge/stdlib-0.1.5-green.svg?raw=true "stdlib.com service")](https://stdlib.com/services/nemo/email-service)
 
 This is an email service built on top of [Mailchimp/Mandrill](https://mailchimp.com) to enable serverless landing pages.
 
