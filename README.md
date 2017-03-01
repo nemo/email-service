@@ -27,9 +27,9 @@ This function will send an email either using a template or just a plain email f
 
 Here's an example message send. See the docs for [sendTemplate](https://mandrillapp.com/api/docs/messages.nodejs.html#method=send-template) and [send](https://mandrillapp.com/api/docs/messages.nodejs.html#method=send) for the full params.
 ```javascript
-  var f = require('f');
+  const lib = require('lib');
 
-  f("./send")({
+  lib['./send']({
       message: {
           to: [{
               email: "nima@halfmoon.ws",
